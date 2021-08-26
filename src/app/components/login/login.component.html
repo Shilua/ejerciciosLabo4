@@ -1,1 +1,17 @@
-<p>login works!</p>
+edad uno<input type="number" [(ngModel)]="edadUno">
+<br/>
+edad dos<input type="number" [(ngModel)]="edadDOs">
+<br/>
+<button (click)="calcular()">calcular</button>
+<button (click)="limpiar()">limpiar</button>
+
+<br/>
+suma de edades <input type="number" [(ngModel)]="edadSumada">
+<br/>
+promedio de edades <input type="number" [(ngModel)]="edadPromedio">
+<input type="string" [(ngModel)]="user" placeholder="usuario">
+<br/>
+<input type="password" [(ngModel)]="password" placeholder="Password">
+<br/>
+<p>usuario: admin Clave: admin</p>
+<button (click)="login()">Login</button> 
